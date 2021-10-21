@@ -92,7 +92,6 @@ HTTP status: {response_clockin.status_code}
 {
     DATA
 }
-{session}
 '''
 
 message = MIMEText(result, 'plain', 'utf-8')
