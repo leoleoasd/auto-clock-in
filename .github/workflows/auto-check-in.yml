@@ -7,8 +7,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    # set the trigger time at 5:00 a.m
-    - cron: "0 7,8,9 * * *" 
+    - cron: "0 23,0,1 * * *" 
 
 jobs:
   bot:
