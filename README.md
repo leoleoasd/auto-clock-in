@@ -41,27 +41,19 @@ python3 app.py
   A example of `DATA` is listed as below.
 
   ```json
-  {
-      "id": "402880c97b5d8ad1017c39dcd10*****",
-      "token": "CA6CD39AFDAC284ED68BB81BD54*****",
-      "JSESSIONID": "02F83B0ECCC5B8A051564CCC********-n1.jvm1",
-      "c1": "在籍本科生",
-      "c2": "在校内居住",
-      "c3": "否",
-      "c4": "否",
-      "c5": "正常",
-      "c6": "正常",
-      "c7": "无情况",
-      "c8": "在京内",
-      "c12": "北京市,北京市,朝阳区,",
-      "c9": "否",
-      "c10": "否",
-      "c11": "否",
-      "c14": "未接种",
-      "location_longitude": "40",
-      "location_latitude": "110",
-      "location_address": "北京市朝阳区平乐园100号北京工业大学"
-  }
+{
+  "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "c16": "在校且住宿",
+  "c17": "在京",
+  "c18": "低风险地区",
+  "c12": "北京市,北京市,朝阳区,",
+  "c15": "无情况",
+  "type": "YQSJSB",
+  "location_longitude": 116.480165,
+  "location_latitude": 39.873745,
+  "location_address": "北京市朝阳区南磨房乡北京工业大学"
+}
   ```
 
   ## Thanks
