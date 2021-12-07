@@ -18,8 +18,8 @@ EMAIL_SERVER = environ['EMAIL_SERVER']
 EMAIL_PORT = int(environ['EMAIL_PORT'])
 core = json.loads(environ['DATA'])
 
-URL_SESSION = 'http://bjut.sanyth.com:81/nonlogin/qywx/authentication.htm?appId=402880c97b1aa5f7017b1ad2bd97001b&urlb64=L3dlaXhpbi9zYW55dGgvaG9tZS5odG1s'
-URL_CLOCKIN = 'http://bjut.sanyth.com:81/syt/zzapply/operation.htm'
+URL_SESSION = 'http://xgxt.bjut.edu.cn/nonlogin/qywx/authentication.htm?appId=402880c97b1aa5f7017b1ad2bd97001b&urlb64=L3dlaXhpbi9zYW55dGgvaG9tZS5odG1s'
+URL_CLOCKIN = 'http://xgxt.bjut.edu.cn/syt/zzapply/operation.htm'
 
 # Part1 Get session
 HEADER_SESSION = {
